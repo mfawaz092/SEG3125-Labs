@@ -1,0 +1,39 @@
+
+body::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: url(./1017008.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    image-rendering: optimizeQuality;
+    image-rendering: crisp-edges;
+}
+
+#title{
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+#link{
+    color: rgb(23, 6, 121);
+}
+
+#image{
+    width: 40%;
+    height: auto;
+    image-rendering: optimizeQuality;
+}
+
+#description{
+    font-size: larger;
+}
+
+#signature{
+    font-style: italic;
+}
